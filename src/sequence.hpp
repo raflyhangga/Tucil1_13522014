@@ -9,7 +9,7 @@ class Sequence{
         int reward;
     public:
 
-    Sequence(std::vector<std::string> sequences,int reward);
+    Sequence(std::vector<std::string> &sequences,int reward);
     std::vector<std::string> getSequence();
     int getReward();
     void printSequence();

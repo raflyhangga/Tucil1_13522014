@@ -1,6 +1,6 @@
 #include "../sequence.hpp"
 
-Sequence::Sequence(std::vector<std::string> sequences,int reward):seq(sequences),reward(reward){
+Sequence::Sequence(std::vector<std::string> &sequences,int reward):seq(sequences),reward(reward){
     this->seq = sequences;
     this->reward = reward;
 }

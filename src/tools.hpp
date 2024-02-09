@@ -8,6 +8,6 @@ struct Langkah {
     int j;
 };
 
-bool isBufferHasSequence(std::vector<std::string> buffer, Sequence sequenceData);
+bool isBufferHasSequence(std::vector<std::string> &buffer, Sequence &sequenceData);
 
-bool isLangkahEqual(Langkah langkah, int i, int j );
+bool isLangkahEqual(Langkah &langkah, int i, int j );
