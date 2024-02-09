@@ -1,0 +1,1 @@
+g++ -o alg .\src\sources\algorithm.cpp .\src\sources\matrix.cpp .\src\sources\sequence.cpp .\src\sources\tools.cpp .\src\sources\readfile.cpp -lm
