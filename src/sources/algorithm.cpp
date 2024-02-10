@@ -38,9 +38,9 @@ void printListSequence(std::vector<Sequence> sequenceList){
 void printListLangkah(std::vector<Langkah> &listLangkah){
     for (int i=0;i<listLangkah.size();i++){
         if(i != listLangkah.size() - 1){
-            std::cout<<listLangkah[i].i+1<<" "<<listLangkah[i].j+1<<std::endl;
+            std::cout<<listLangkah[i].j+1<<" "<<listLangkah[i].i+1<<std::endl;
         } else {
-            std::cout<<listLangkah[i].i+1<<" "<<listLangkah[i].j+1;
+            std::cout<<listLangkah[i].j+1<<" "<<listLangkah[i].i+1;
         }
     }
     std::cout<<std::endl;

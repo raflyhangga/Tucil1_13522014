@@ -33,9 +33,9 @@ std::string resultString(hasil dataHasil, std::vector<Sequence> dataSequence, Ma
         }
         data += "\nLangkah: \n";
         for (int i=0;i<dataHasil.hasilLangkah.size();i++){
-            data += std::to_string(dataHasil.hasilLangkah[i].i+1).c_str();
-            data += " ";
             data += std::to_string(dataHasil.hasilLangkah[i].j+1).c_str();
+            data += " ";
+            data += std::to_string(dataHasil.hasilLangkah[i].i+1).c_str();
             if (i != dataHasil.hasilLangkah.size() - 1){
                 data += "\n";
             }
