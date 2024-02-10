@@ -50,6 +50,7 @@ void startSolver(Matrix &dataMatrix,int &bufferSize,std::vector<Sequence> &dataS
     cout << "Buffer size: "<<bufferSize<<std::endl;
     
     cout<<"\n======================= Result =======================\n";
+    cout<<"Processing...\n";
     hasil dataHasil = findPath(dataMatrix,bufferSize,dataSequence,execTime);
     string printChoice,path;
 

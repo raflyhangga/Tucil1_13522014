@@ -1,0 +1,38 @@
+Matrix:
+AB ER 21 21 0O ER 
+43 0O ER AB 0O 21 
+AB 21 21 0O 21 AB 
+0O 21 ER AB 21 21 
+ER ER ER 43 ER 0O 
+21 0O AB 21 43 AB 
+21 AB 43 AB 43 43 
+AB AB ER AB 0O 43 
+AB ER ER 43 0O 43 
+
+Buffer Maximum Size: 8
+
+==== Sequence List ===
+Sequence: ER ER 0O ER 0O ER 
+Reward: 50
+Sequence: AB 
+Reward: 27
+Sequence: 43 43 ER 0O 43 0O AB 0O ER 
+Reward: 53
+Sequence: ER 21 ER 43 21 
+Reward: 10
+Sequence: ER 43 
+Reward: 36
+
+==== Result ====
+Execution time: 7020.819000 ms
+Maximum point: 113
+Buffer: ER ER 0O ER 0O ER 43 AB 
+Langkah: 
+1 2
+5 2
+5 6
+1 6
+1 5
+5 5
+5 4
+2 4

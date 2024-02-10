@@ -1,6 +1,6 @@
 #include "../header/matrix.hpp"
 
-Matrix::Matrix(int numRows, int numCols): rows(numRows),cols(numCols){
+Matrix::Matrix(int height, int width): rows(height),cols(width){
     data.resize(rows, std::vector<std::string>(cols, "NULL")); // Initialize all elements to 0
 }
 
@@ -34,8 +34,10 @@ std::string Matrix::getValue(int row, int col){
 }
 
 void Matrix::printValue(){
-    for (int i = 0; i < rows; ++i) {
-        for (int j = 0; j < cols; ++j) {
+    std::cout<<"Height: "<<this->getHeight()<<std::endl;
+    std::cout<<"Width: "<<this->getWidth()<<std::endl;
+    for (int i = 0; i < this->getHeight(); ++i) {
+        for (int j = 0; j < this->getWidth(); ++j) {
             std::cout << data[i][j] << "\t";
         }
         std::cout << std::endl;

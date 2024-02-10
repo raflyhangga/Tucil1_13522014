@@ -23,9 +23,9 @@ std::vector<std::string> getToken(std::string inputString, int tokenSize){
 }
 
 Matrix randomMatrix(int matrixWidth, int matrixHeight, std::vector<std::string> token){
-    Matrix dataMatrix(matrixWidth,matrixHeight);
-    for(int i=0; i<matrixWidth; i++){
-        for(int j=0; j<matrixHeight;j++){
+    Matrix dataMatrix(matrixHeight,matrixWidth);
+    for(int i=0; i<matrixHeight; i++){
+        for(int j=0; j<matrixWidth;j++){
             std::string randomToken = token[randomNumber(0,token.size()-1)];
             dataMatrix.setValue(i,j,randomToken);
         }

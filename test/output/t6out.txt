@@ -1,0 +1,89 @@
+Matrix:
+IS IS SA MI SA MI N1 KI 
+KI SA IS SA N1 SA MI IS 
+MI MI KI N1 MI KI N1 SA 
+KI MI IS N1 N1 IS N1 SA 
+MI KI KI SA MI KI SA IS 
+N1 MI N1 SA KI KI KI IS 
+N1 N1 SA SA KI IS SA IS 
+IS MI IS SA KI N1 SA IS 
+SA N1 KI N1 N1 N1 N1 MI 
+KI SA IS MI SA MI KI MI 
+N1 SA N1 N1 SA IS N1 N1 
+
+Buffer Maximum Size: 7
+
+==== Sequence List ===
+Sequence: MI N1 KI IS 
+Reward: -70
+Sequence: SA KI N1 SA MI 
+Reward: 68
+Sequence: MI IS MI KI N1 SA KI 
+Reward: -78
+Sequence: IS 
+Reward: -30
+Sequence: KI SA MI 
+Reward: 67
+Sequence: IS SA 
+Reward: -76
+Sequence: MI KI SA KI MI KI 
+Reward: -36
+Sequence: KI N1 
+Reward: 20
+Sequence: MI KI MI KI 
+Reward: 54
+Sequence: KI IS KI IS IS SA IS 
+Reward: 33
+Sequence: IS SA 
+Reward: 15
+Sequence: SA 
+Reward: 64
+Sequence: MI IS N1 KI MI IS SA 
+Reward: -88
+Sequence: MI 
+Reward: 16
+Sequence: N1 SA KI 
+Reward: 8
+Sequence: MI 
+Reward: 64
+Sequence: MI SA SA MI KI SA 
+Reward: -5
+Sequence: MI SA N1 SA KI N1 SA 
+Reward: -28
+Sequence: MI 
+Reward: -7
+Sequence: SA IS N1 SA N1 
+Reward: -80
+Sequence: KI KI 
+Reward: -7
+Sequence: SA MI KI SA MI SA 
+Reward: -50
+Sequence: SA KI 
+Reward: 95
+Sequence: MI SA 
+Reward: -27
+Sequence: IS 
+Reward: 12
+Sequence: SA IS KI N1 KI IS 
+Reward: 51
+Sequence: IS MI IS IS 
+Reward: 65
+Sequence: IS N1 
+Reward: 20
+Sequence: MI KI SA 
+Reward: 23
+Sequence: N1 SA KI IS N1 IS N1 
+Reward: -37
+
+==== Result ====
+Execution time: 28171.317000 ms
+Maximum point: 353
+Buffer: SA KI SA MI KI MI KI 
+Langkah: 
+1 3
+3 3
+3 8
+10 8
+10 1
+3 1
+3 6

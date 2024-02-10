@@ -10,7 +10,7 @@ class Matrix {
         int rows;
         int cols;
     public:
-        Matrix(int numRows, int numCols);
+        Matrix(int height, int width);
 
         int getWidth();
         int getHeight();

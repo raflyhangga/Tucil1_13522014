@@ -1,0 +1,58 @@
+Matrix:
+FF FF AA BB DD 
+BB FF EE EE DD 
+AA DD DD BB AA 
+EE FF CC FF EE 
+AA DD CC BB DD 
+EE AA CC CC DD 
+FF FF FF FF FF 
+EE CC EE FF EE 
+BB EE AA DD AA 
+AA DD DD DD EE 
+
+Buffer Maximum Size: 8
+
+==== Sequence List ===
+Sequence: EE CC AA 
+Reward: 48
+Sequence: EE CC 
+Reward: -20
+Sequence: AA BB FF AA BB 
+Reward: -87
+Sequence: DD CC DD 
+Reward: 48
+Sequence: AA 
+Reward: -80
+Sequence: DD BB DD DD CC 
+Reward: 85
+Sequence: BB AA CC 
+Reward: -86
+Sequence: AA CC BB BB DD AA 
+Reward: -27
+Sequence: CC 
+Reward: -28
+Sequence: FF BB CC 
+Reward: -16
+Sequence: EE FF CC 
+Reward: 77
+Sequence: CC 
+Reward: 72
+Sequence: AA 
+Reward: -49
+Sequence: AA FF DD 
+Reward: 21
+Sequence: AA BB 
+Reward: 96
+
+==== Result ====
+Execution time: 9969.870000 ms
+Maximum point: 177
+Buffer: FF DD BB DD DD CC DD 
+Langkah: 
+1 2
+3 2
+3 4
+10 4
+10 3
+5 3
+5 2

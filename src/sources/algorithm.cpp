@@ -54,14 +54,19 @@ void printBuffer(std::vector<std::string> &buffer){
 }
 
 void printHasil(hasil dataHasil){
-    std::cout<<"Maximum point: "<<dataHasil.reward<<std::endl;
-    std::cout<<"Buffer: ";
-    for (int i=0;i<dataHasil.hasilBuffer.size();i++){
-        std::cout<<dataHasil.hasilBuffer[i]<<" ";
+    if (dataHasil.reward != 0){
+        std::cout<<"Maximum point: "<<dataHasil.reward<<std::endl;
+        std::cout<<"Buffer: ";
+        for (int i=0;i<dataHasil.hasilBuffer.size();i++){
+            std::cout<<dataHasil.hasilBuffer[i]<<" ";
+        }
+        std::cout<<std::endl;
+        std::cout<<"Langkah: "<<std::endl;
+        printListLangkah(dataHasil.hasilLangkah);
     }
-    std::cout<<std::endl;
-    std::cout<<"Langkah: "<<std::endl;
-    printListLangkah(dataHasil.hasilLangkah);
+    else {
+        std::cout<<"There is no solution\n";
+    }
 }
 
 
@@ -117,7 +122,7 @@ hasil findPath(Matrix &dataMatrix,int &bufferSize,std::vector<Sequence> &dataSeq
     std::vector<hasil> listResult;
     hasil myHasil;
 
-    int rewardMaks = INT16_MIN;
+    int rewardMaks = 0;
     int counter = 0;
     int idx = 0;
     bool check = true;

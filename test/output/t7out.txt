@@ -1,0 +1,17 @@
+Matrix:
+AB AB AB AB 
+AB AB AB AB 
+AB AB AB AB 
+AB AB AB AB 
+
+Buffer Maximum Size: 7
+
+==== Sequence List ===
+Sequence: BB BB 
+Reward: 10
+Sequence: CC CC 
+Reward: 20
+
+==== Result ====
+Execution time: 5.422000 ms
+No solution.
