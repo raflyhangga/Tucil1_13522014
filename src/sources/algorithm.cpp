@@ -130,23 +130,3 @@ hasil findPath(Matrix &dataMatrix,int &bufferSize,std::vector<Sequence> &dataSeq
 
     return myHasil;
 }
-
-// int main(){
-//     Matrix dataMatriks = getMatrix("src/tes.txt");
-//     std::vector<Sequence> dataSequence = getSequences("src/tes.txt");
-//     int bufferSize = getBufferSize("src/tes.txt");
-
-//     std::cout<<"Matriks terbaca:"<<std::endl;
-//     dataMatriks.printValue();
-//     std::cout<<"Buffer Size: "<<bufferSize<<std::endl;
-
-
-//     hasil myHasil = findPath(dataMatriks,bufferSize,dataSequence);
-
-//     std::cout<<"Reward Maksimum: "<<myHasil.reward<<std::endl;
-//     std::cout<<"Buffer : ";
-//     printBuffer(myHasil.hasilBuffer);
-//     printListLangkah(myHasil.hasilLangkah);
-
-//     return 0;
-// }

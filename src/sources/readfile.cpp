@@ -40,7 +40,6 @@ Matrix getMatrix(std::string pathToFile){
         std::string token;
         for (int j=0;j<width;j++){
             rowstream>>token;
-            // std::cout<<"Current token: "<<token.c_str()<<std::endl;
             mat.setValue(i,j,token.c_str());
         }
     }
