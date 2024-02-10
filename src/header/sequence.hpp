@@ -10,6 +10,7 @@ class Sequence{
     public:
 
     Sequence(std::vector<std::string> &sequences,int reward);
+    std::string stringSequence();
     std::vector<std::string> getSequence();
     int getReward();
     void printSequence();

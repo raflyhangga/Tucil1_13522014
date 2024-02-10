@@ -1,0 +1,31 @@
+Matrix:
+TU AB AB TU RE AB TU 
+RE TU AB PE RE 21 TU 
+TU TU RE PE AB 21 RE 
+RE AB 21 21 AB PE 21 
+RE TU 21 AB 21 AB TU 
+AB TU RE TU RE AB RE 
+PE RE TU AB TU 21 PE 
+
+Buffer Maximum Size: 5
+
+==== Sequence List ===
+Sequence: RE 21 21 AB 
+Reward: 15
+Sequence: AB 
+Reward: 13
+Sequence: AB RE 21 PE 
+Reward: 18
+Sequence: TU AB TU TU 
+Reward: 32
+
+==== Result ====
+Execution time: 16.565698 ms
+Maximum point: 45
+Buffer: AB TU AB TU TU 
+Langkah: 
+1 3
+7 3
+7 4
+1 4
+1 1

@@ -1,4 +1,4 @@
-#include "../readfile.hpp"
+#include "../header/readfile.hpp"
 
 std::string getText(std::string pathToFile){
     std::ifstream myFile(pathToFile);
@@ -64,7 +64,6 @@ std::vector<Sequence> getSequences(std::string pathToFile){
     }
 
     std::getline(mainstream,line);
-    // std::cout<<"Current line: "<<line<<std::endl;
 
     std::vector<Sequence> seqLists;
     int sequenceLength = std::stoi(line);

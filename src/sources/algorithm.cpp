@@ -1,12 +1,4 @@
-#include "../readfile.hpp"
-#include "../tools.hpp"
-#include <ctime>
-
-struct hasil {
-    std::vector<std::string> hasilBuffer;
-    std::vector<Langkah> hasilLangkah;
-    int reward;
-};
+#include "../header/algorithm.hpp"
 
 int countReward(std::vector<std::string> &buffer,std::vector<Sequence> &dataSequence){
     int reward = 0;
@@ -37,9 +29,19 @@ bool isSafe(Langkah &currentTileIdx, std::vector<Langkah> &listLangkah){
     return cek;
 }
 
+void printListSequence(std::vector<Sequence> sequenceList){
+    for (int i=0;i<sequenceList.size();i++){
+        sequenceList[i].printSequence();
+    }
+}
+
 void printListLangkah(std::vector<Langkah> &listLangkah){
     for (int i=0;i<listLangkah.size();i++){
-        std::cout<<"("<<listLangkah[i].i<<","<<listLangkah[i].j<<") ";
+        if(i != listLangkah.size() - 1){
+            std::cout<<listLangkah[i].i+1<<" "<<listLangkah[i].j+1<<std::endl;
+        } else {
+            std::cout<<listLangkah[i].i+1<<" "<<listLangkah[i].j+1;
+        }
     }
     std::cout<<std::endl;
 }
@@ -49,6 +51,17 @@ void printBuffer(std::vector<std::string> &buffer){
         std::cout<<buffer[i]<<" ";
     }
     std::cout<<std::endl;
+}
+
+void printHasil(hasil dataHasil){
+    std::cout<<"Maximum point: "<<dataHasil.reward<<std::endl;
+    std::cout<<"Buffer: ";
+    for (int i=0;i<dataHasil.hasilBuffer.size();i++){
+        std::cout<<dataHasil.hasilBuffer[i]<<" ";
+    }
+    std::cout<<std::endl;
+    std::cout<<"Langkah: "<<std::endl;
+    printListLangkah(dataHasil.hasilLangkah);
 }
 
 
@@ -98,7 +111,7 @@ void findOptimum(Matrix &dataMatrix,int &rewardMaks, std::vector<Langkah> &curre
     }
 }
 
-hasil findPath(Matrix &dataMatrix,int &bufferSize,std::vector<Sequence> &dataSequence){
+hasil findPath(Matrix &dataMatrix,int &bufferSize,std::vector<Sequence> &dataSequence, double &execTime){
     std::vector<Langkah> langkahTemp,langkahOptimum;
     std::vector<std::string> buffer;
     std::vector<hasil> listResult;
@@ -109,7 +122,11 @@ hasil findPath(Matrix &dataMatrix,int &bufferSize,std::vector<Sequence> &dataSeq
     int idx = 0;
     bool check = true;
 
+    auto start = std::chrono::high_resolution_clock::now();
     findOptimum(dataMatrix,rewardMaks,langkahOptimum,check,buffer,bufferSize,dataSequence,idx,myHasil);
+    auto end = std::chrono::high_resolution_clock::now();
+    std::chrono::duration<double> duration = end - start;
+    execTime = duration.count() * 1000;
 
     return myHasil;
 }
@@ -124,16 +141,12 @@ hasil findPath(Matrix &dataMatrix,int &bufferSize,std::vector<Sequence> &dataSeq
 //     std::cout<<"Buffer Size: "<<bufferSize<<std::endl;
 
 
-//     std::clock_t start = clock();
 //     hasil myHasil = findPath(dataMatriks,bufferSize,dataSequence);
-//     std::clock_t end = clock();
 
 //     std::cout<<"Reward Maksimum: "<<myHasil.reward<<std::endl;
 //     std::cout<<"Buffer : ";
 //     printBuffer(myHasil.hasilBuffer);
 //     printListLangkah(myHasil.hasilLangkah);
 
-//     double duration_sec = static_cast<double>(end - start) / CLOCKS_PER_SEC;
-//     std::cout<<"Time execution: "<<duration_sec*1000<<" ms\n";
 //     return 0;
 // }

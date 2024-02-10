@@ -1,0 +1,43 @@
+Matrix:
+55 FF 7A 1C FF 55 BD FF 
+FF BD 55 7A FF 1C BD E9 
+7A FF BD FF FF FF FF BD 
+1C BD 7A E9 1C 55 55 BD 
+FF 1C 1C FF E9 7A FF BD 
+E9 E9 55 BD 7A 7A 7A 55 
+BD FF 1C 1C FF 1C E9 1C 
+1C 55 55 1C E9 BD E9 7A 
+
+Buffer Maximum Size: 7
+
+==== Sequence List ===
+Sequence: E9 55 7A BD 7A FF 7A 1C 
+Reward: 29
+Sequence: 7A 7A 55 FF 55 FF 55 
+Reward: 20
+Sequence: BD 7A 
+Reward: 17
+Sequence: FF BD 7A BD 55 FF 
+Reward: 20
+Sequence: 7A 55 1C FF FF BD 55 FF 
+Reward: 7
+Sequence: 7A 55 55 FF 7A 7A 55 
+Reward: 25
+Sequence: 55 
+Reward: 29
+Sequence: 7A E9 BD 55 BD FF 55 
+Reward: 30
+Sequence: BD 55 FF 1C FF FF 
+Reward: 29
+
+==== Result ====
+Execution time: 3611.476000 ms
+Maximum point: 66
+Buffer: FF BD 7A BD 55 FF 
+Langkah: 
+1 2
+2 2
+2 4
+6 4
+6 8
+1 8

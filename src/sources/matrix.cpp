@@ -1,4 +1,4 @@
-#include "../matrix.hpp"
+#include "../header/matrix.hpp"
 
 Matrix::Matrix(int numRows, int numCols): rows(numRows),cols(numCols){
     data.resize(rows, std::vector<std::string>(cols, "NULL")); // Initialize all elements to 0
