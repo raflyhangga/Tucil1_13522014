@@ -55,3 +55,21 @@ The paramaters incudes:
 
 **IMPORTANT!!!**<br>
 If the user mistakenly input the wrong type into these parameters, please re-open the program to achieve an accurate solution.
+
+## Project Structure
+```
+├───bin
+├───doc
+├───src
+│   ├───header
+│   └───sources
+└───test
+    └───output
+```
+* ```bin``` folder is used to store all the executable file for every OS.
+* ```doc``` folder is used to store this project' report in pdf format.
+* ```src``` folder is used to store this project's source code. ```header``` used to store all the header files and ```sources``` used to store all the implementation
+* ```test``` folder is used to store this project's input while ```output``` is used to store this project outputs.
+## Creator
+Name: Raden Rafly Hanggaraksa Budiarto <br>
+NIM: 13522014
