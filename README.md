@@ -23,7 +23,7 @@ This project is a minigame solver for **Cyberpunk 2077's Breach Protocol Minigam
 ## Running the Application
 ### Windows Based OS
 Run the executable, built by ```run.bat```, by opening the ```main.exe``` file.
-### Unix Based OS
+### UNIX Based OS
 Run the executable, built by ```run.sh```, by opening the ```main``` file.
 
 ## How to Use the Application
