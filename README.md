@@ -53,5 +53,5 @@ The paramaters incudes:
 1. Maximum Sequence Length - ```integer```
 1. Maximum Reward - ```integer```
 
-**IMPORTANT!!!**
+**IMPORTANT!!!**<br>
 If the user mistakenly input the wrong type into these parameters, please re-open the program to achieve an accurate solution.
