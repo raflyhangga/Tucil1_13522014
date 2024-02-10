@@ -1,0 +1,30 @@
+Matrix:
+M7 T2 2W 2W M7 
+E4 2W 2W E4 PO 
+M7 T2 PO T2 M7 
+PO T2 PO 2W M7 
+2W 2W PO 2W T2 
+2W E4 M7 T2 M7 
+
+Buffer Maximum Size: 6
+
+==== Sequence List ===
+Sequence: E4 PO 
+Reward: 3
+Sequence: E4 M7 M7 M7 PO PO 
+Reward: 36
+Sequence: T2 M7 M7 E4 PO E4 
+Reward: 31
+Sequence: T2 
+Reward: 17
+
+==== Result ====
+Execution time: 25.493000 ms
+Maximum point: 20
+Buffer: M7 E4 PO M7 T2 
+Langkah: 
+1 1
+1 2
+5 2
+5 1
+2 1

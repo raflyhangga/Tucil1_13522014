@@ -34,16 +34,12 @@ Matrix getMatrix(std::string pathToFile){
     height = std::stoi(word);
 
     Matrix mat(height,width);
-    std::cout<<"Width :"<<width<<std::endl;
-    std::cout<<"Height :"<<height<<std::endl;
     for (int i=0;i<height;i++){
         std::getline(mainstream,matrRowString);
         std::stringstream rowstream(matrRowString);
         std::string token;
         for (int j=0;j<width;j++){
             rowstream>>token;
-            std::cout<<"("<<i<<" "<<j<<")\n";
-            std::cout<<token.c_str()<<std::endl;
             mat.setValue(i,j,token.c_str());
         }
     }

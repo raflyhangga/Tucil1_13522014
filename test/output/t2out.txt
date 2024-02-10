@@ -1,0 +1,37 @@
+Matrix:
+PG D4 PG 7C 7C 7C 7C 
+PG PG D4 7C 7C 1A 7C 
+PG D4 1A 1A 1A D4 D4 
+7C 7C D4 7C D4 7C 7C 
+D4 7C PG PG 7C 1A 1A 
+D4 1A PG 1A D4 D4 1A 
+D4 7C 7C 1A 7C PG 7C 
+
+Buffer Maximum Size: 7
+
+==== Sequence List ===
+Sequence: D4 7C 1A 
+Reward: 211
+Sequence: PG D4 7C 
+Reward: 125
+Sequence: 7C PG D4 PG 
+Reward: 220
+Sequence: 1A PG 
+Reward: 272
+Sequence: 1A 7C 1A 
+Reward: 282
+Sequence: PG 1A 7C 
+Reward: 253
+
+==== Result ====
+Execution time: 1154.773000 ms
+Maximum point: 1018
+Buffer: D4 7C 1A PG 1A 7C 1A 
+Langkah: 
+2 1
+2 5
+6 5
+6 7
+4 7
+4 2
+6 2
