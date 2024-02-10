@@ -7,7 +7,7 @@ int countReward(std::vector<std::string> &buffer,std::vector<Sequence> &dataSequ
             reward += dataSequence[i].getReward();
         }
     }
-    return buffer.size() == 0? INT16_MIN : reward;
+    return reward;
 }
 
 bool isLangkahSame(Langkah &langkah1, Langkah &langkah2){
