@@ -1,4 +1,3 @@
-// #include "readfile.hpp"
 #include <string>
 #include <iostream>
 #include <stdlib.h>
@@ -7,75 +6,8 @@
 #include "header/fieldgenerator.hpp"
 #include "header/writefile.hpp"
 #include "header/readfile.hpp"
+#include "header/tools.hpp"
 using namespace std;
-
-void Clear()
-{
-    #if defined _WIN32
-        system("cls");
-    #elif defined (__LINUX__) || defined(__gnu_linux__) || defined(__linux__)
-        system("clear");
-    #elif defined (__APPLE__)
-        system("clear");
-    #endif
-}
-
-void isContinue(bool &status){
-    string choice;
-    bool cek = false; 
-    while(!cek){
-        cout<<"Do another test? (y/n)\n-> ";
-        cin >> choice;
-        if (choice == "y"){
-            status = true;
-            cek = true;
-        }
-        else if(choice == "n"){
-            status = false;
-            cek = true;
-        }
-        else{
-            Clear();
-            cout << "Input tidak valid!\n";
-        }
-    }
-
-}
-
-void startSolver(Matrix &dataMatrix,int &bufferSize,std::vector<Sequence> &dataSequence, double &execTime){
-    Clear();
-    cout<<"======================= Input =======================\n";
-    cout<<"Matriks Input:\n";
-    dataMatrix.printValue();
-    cout << "Buffer size: "<<bufferSize<<std::endl;
-    
-    cout<<"\n======================= Result =======================\n";
-    cout<<"Processing...\n";
-    hasil dataHasil = findPath(dataMatrix,bufferSize,dataSequence,execTime);
-    string printChoice,path;
-
-    printHasil(dataHasil);
-    cout<<"Time Execution "<<execTime<<" ms\n";
-
-    bool cek = false;
-    while(!cek){
-        cout<<"Do you want to write this file? (y/n) -> ";
-        cin >>printChoice;
-        if(printChoice == "y"){
-            cout << "Save as ( [yourfile].txt )-> ";
-            cin >> path;
-            path = "test/output/" + path;
-            resultToTxt(path,dataHasil,dataSequence,dataMatrix,execTime,bufferSize);
-            cek = true;
-        } 
-        else if(printChoice != "n") {
-            cout << "Input is not valid!\n";
-        }
-        else {
-            cek = true;
-        }
-    }
-}
 
 int main(){
     bool play = true;

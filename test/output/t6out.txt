@@ -76,14 +76,14 @@ Sequence: N1 SA KI IS N1 IS N1
 Reward: -37
 
 ==== Result ====
-Execution time: 28171.317000 ms
+Execution time: 33489.228000 ms
 Maximum point: 353
 Buffer: SA KI SA MI KI MI KI 
 Langkah: 
-1 3
-3 3
-3 8
-10 8
-10 1
 3 1
-3 6
+3 3
+8 3
+8 10
+1 10
+1 3
+6 3

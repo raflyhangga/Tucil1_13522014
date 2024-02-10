@@ -1,0 +1,26 @@
+Matrix:
+55 55 55 55 55 55 
+55 55 55 55 55 55 
+55 55 55 55 55 55 
+55 55 55 55 55 55 
+55 55 55 55 55 55 
+55 55 55 55 55 55 
+
+Buffer Maximum Size: 7
+
+==== Sequence List ===
+Sequence: 55 55 55 55 
+Reward: -100
+Sequence: 55 55 55 
+Reward: 15
+Sequence: 55 55 55 55 55 
+Reward: 30
+
+==== Result ====
+Execution time: 206.511000 ms
+Maximum point: 15
+Buffer: 55 55 55 
+Langkah: 
+1 1
+1 2
+2 2

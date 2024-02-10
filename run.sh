@@ -1,1 +1,1 @@
-g++ -o ./bin/main ./src/main.cpp ./src/sources/algorithm.cpp ./src/sources/fieldgenerator.cpp ./src/sources/matrix.cpp ./src/sources/readfile.cpp ./src/sources/sequence.cpp ./src/sources/tools.cpp ./src/sources/writefile.cpp -lm
+g++ -o ./bin/main ./src/main.cpp ./src/sources/algorithm.cpp ./src/sources/fieldgenerator.cpp ./src/sources/matrix.cpp ./src/sources/readfile.cpp ./src/sources/sequence.cpp ./src/sources/tools.cpp ./src/sources/writefile.cpp ./src/sources/printTool.cpp -lm
