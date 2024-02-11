@@ -1,5 +1,4 @@
 #include "../header/printTool.hpp"
-// using namespace std;
 
 void isContinue(bool &status){
     std::string choice;

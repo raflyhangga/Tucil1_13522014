@@ -36,7 +36,7 @@ Matrix randomMatrix(int matrixWidth, int matrixHeight, std::vector<std::string> 
 std::vector<Sequence> randomSequence(int sequenceAmount, int rewardMaksimum, int sequenceMaximumSize, std::vector<std::string> token){
     std::vector<Sequence> sequencesData;
     while(sequenceAmount--){
-        int sequenceSize = randomNumber(1,sequenceMaximumSize);
+        int sequenceSize = randomNumber(2,sequenceMaximumSize);
         std::vector<std::string> sequenceToken;
         while(sequenceSize--){
             std::string randomToken = token[randomNumber(0,token.size()-1)];
