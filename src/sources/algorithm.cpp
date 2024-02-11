@@ -1,5 +1,7 @@
 #include "../header/algorithm.hpp"
 
+int recursionCounter = 0;
+
 int countReward(std::vector<std::string> &buffer,std::vector<Sequence> &dataSequence){
     int reward = 0;
     for(int i=0;i<dataSequence.size();i++){
@@ -72,6 +74,7 @@ void printHasil(hasil dataHasil){
 
 void findOptimum(Matrix &dataMatrix,int &rewardMaks, std::vector<Langkah> &currentLangkah, bool &isHorizontal, std::vector<std::string> &buffer,int &bufferSize,std::vector<Sequence> &dataSequence, int &idx, hasil &result){
     int tempReward = countReward(buffer,dataSequence);
+    recursionCounter++;
     if((buffer.size() == bufferSize) || tempReward > rewardMaks){
         if (tempReward > rewardMaks){
             rewardMaks = tempReward;
@@ -131,6 +134,7 @@ hasil findPath(Matrix &dataMatrix,int &bufferSize,std::vector<Sequence> &dataSeq
     findOptimum(dataMatrix,rewardMaks,langkahOptimum,check,buffer,bufferSize,dataSequence,idx,myHasil);
     auto end = std::chrono::high_resolution_clock::now();
     std::chrono::duration<double> duration = end - start;
+    std::cout<<"Banyak rekursi: "<<recursionCounter<<std::endl;
     execTime = duration.count() * 1000;
 
     return myHasil;
