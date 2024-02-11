@@ -2,11 +2,11 @@
 
 int recursionCounter = 0;
 
-int countReward(std::vector<std::string> &buffer,std::vector<Sequence> &dataSequence){
+int countReward(Arraydin<std::string> &buffer,Arraydin<Sequence> &dataSequence){
     int reward = 0;
     for(int i=0;i<dataSequence.size();i++){
-        if(isBufferHasSequence(buffer,dataSequence[i])){
-            reward += dataSequence[i].getReward();
+        if(isBufferHasSequence(buffer,dataSequence.data[i])){
+            reward += dataSequence.data[i].getReward();
         }
     }
     return reward;
@@ -16,11 +16,11 @@ bool isLangkahSame(Langkah &langkah1, Langkah &langkah2){
     return (langkah1.i == langkah2.i) && (langkah1.j == langkah2.j); 
 }
 
-bool isSafe(Langkah &currentTileIdx, std::vector<Langkah> &listLangkah){
+bool isSafe(Langkah &currentTileIdx, Arraydin<Langkah> &listLangkah){
     bool cek = true;
     int idx = 0;
     while((idx < listLangkah.size()) && cek){
-        if (isLangkahSame(currentTileIdx,listLangkah[idx])){
+        if (isLangkahSame(currentTileIdx,listLangkah.data[idx])){
             cek = false;
             break;
         }
@@ -31,26 +31,26 @@ bool isSafe(Langkah &currentTileIdx, std::vector<Langkah> &listLangkah){
     return cek;
 }
 
-void printListSequence(std::vector<Sequence> sequenceList){
+void printListSequence(Arraydin<Sequence> sequenceList){
     for (int i=0;i<sequenceList.size();i++){
-        sequenceList[i].printSequence();
+        sequenceList.data[i].printSequence();
     }
 }
 
-void printListLangkah(std::vector<Langkah> &listLangkah){
+void printListLangkah(Arraydin<Langkah> &listLangkah){
     for (int i=0;i<listLangkah.size();i++){
         if(i != listLangkah.size() - 1){
-            std::cout<<listLangkah[i].j+1<<" "<<listLangkah[i].i+1<<std::endl;
+            std::cout<<listLangkah.data[i].j+1<<" "<<listLangkah.data[i].i+1<<std::endl;
         } else {
-            std::cout<<listLangkah[i].j+1<<" "<<listLangkah[i].i+1;
+            std::cout<<listLangkah.data[i].j+1<<" "<<listLangkah.data[i].i+1;
         }
     }
     std::cout<<std::endl;
 }
 
-void printBuffer(std::vector<std::string> &buffer){
+void printBuffer(Arraydin<std::string> &buffer){
     for (int i=0;i<buffer.size();i++){
-        std::cout<<buffer[i]<<" ";
+        std::cout<<buffer.data[i]<<" ";
     }
     std::cout<<std::endl;
 }
@@ -60,7 +60,7 @@ void printHasil(hasil dataHasil){
         std::cout<<"Maximum point: "<<dataHasil.reward<<std::endl;
         std::cout<<"Buffer: ";
         for (int i=0;i<dataHasil.hasilBuffer.size();i++){
-            std::cout<<dataHasil.hasilBuffer[i]<<" ";
+            std::cout<<dataHasil.hasilBuffer.data[i]<<" ";
         }
         std::cout<<std::endl;
         std::cout<<"Langkah: "<<std::endl;
@@ -72,7 +72,7 @@ void printHasil(hasil dataHasil){
 }
 
 
-void findOptimum(Matrix &dataMatrix,int &rewardMaks, std::vector<Langkah> &currentLangkah, bool &isHorizontal, std::vector<std::string> &buffer,int &bufferSize,std::vector<Sequence> &dataSequence, int &idx, hasil &result){
+void findOptimum(Matrix &dataMatrix,int &rewardMaks, Arraydin<Langkah> &currentLangkah, bool &isHorizontal, Arraydin<std::string> &buffer,int &bufferSize,Arraydin<Sequence> &dataSequence, int &idx, hasil &result){
     int tempReward = countReward(buffer,dataSequence);
     recursionCounter++;
     if((buffer.size() == bufferSize) || tempReward > rewardMaks){
@@ -92,8 +92,8 @@ void findOptimum(Matrix &dataMatrix,int &rewardMaks, std::vector<Langkah> &curre
 
                 if(isSafe(currentTilePtr,currentLangkah)){
                     bool check = !isHorizontal;
-                    std::vector<Langkah> tempCurrentLangkah = currentLangkah;
-                    std::vector<std::string> tempBuffer = buffer;
+                    Arraydin<Langkah> tempCurrentLangkah = currentLangkah;
+                    Arraydin<std::string> tempBuffer = buffer;
                     tempCurrentLangkah.push_back(currentTilePtr);
                     tempBuffer.push_back(dataMatrix.getValue(currentTilePtr.i,currentTilePtr.j));
                     findOptimum(dataMatrix,rewardMaks,tempCurrentLangkah,check,tempBuffer,bufferSize,dataSequence,ptr,result);
@@ -108,8 +108,8 @@ void findOptimum(Matrix &dataMatrix,int &rewardMaks, std::vector<Langkah> &curre
 
                 if(isSafe(currentTilePtr,currentLangkah) ){
                     bool check = !isHorizontal;
-                    std::vector<Langkah> tempCurrentLangkah = currentLangkah;
-                    std::vector<std::string> tempBuffer = buffer;
+                    Arraydin<Langkah> tempCurrentLangkah = currentLangkah;
+                    Arraydin<std::string> tempBuffer = buffer;
                     tempCurrentLangkah.push_back(currentTilePtr);
                     tempBuffer.push_back(dataMatrix.getValue(currentTilePtr.i,currentTilePtr.j));
                     findOptimum(dataMatrix,rewardMaks,tempCurrentLangkah,check,tempBuffer,bufferSize,dataSequence,ptr,result);
@@ -119,10 +119,10 @@ void findOptimum(Matrix &dataMatrix,int &rewardMaks, std::vector<Langkah> &curre
     }
 }
 
-hasil findPath(Matrix &dataMatrix,int &bufferSize,std::vector<Sequence> &dataSequence, double &execTime){
-    std::vector<Langkah> langkahTemp,langkahOptimum;
-    std::vector<std::string> buffer;
-    std::vector<hasil> listResult;
+hasil findPath(Matrix &dataMatrix,int &bufferSize,Arraydin<Sequence> &dataSequence, double &execTime){
+    Arraydin<Langkah> langkahTemp,langkahOptimum;
+    Arraydin<std::string> buffer;
+    Arraydin<hasil> listResult;
     hasil myHasil;
 
     int rewardMaks = 0;

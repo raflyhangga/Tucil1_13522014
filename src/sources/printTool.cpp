@@ -22,7 +22,7 @@ void isContinue(bool &status){
 
 }
 
-void startSolver(Matrix &dataMatrix,int &bufferSize,std::vector<Sequence> &dataSequence, double &execTime){
+void startSolver(Matrix &dataMatrix,int &bufferSize,Arraydin<Sequence> &dataSequence, double &execTime){
     Clear();
     std::cout<<"======================= Input =======================\n";
     std::cout<<"Matriks Input:\n";

@@ -46,7 +46,7 @@ Matrix getMatrix(std::string pathToFile){
     return mat;
 }
 
-std::vector<Sequence> getSequences(std::string pathToFile){
+Arraydin<Sequence> getSequences(std::string pathToFile){
     std::string line,word;
     int height;
     std::string data = getText(pathToFile);
@@ -64,12 +64,12 @@ std::vector<Sequence> getSequences(std::string pathToFile){
 
     std::getline(mainstream,line);
 
-    std::vector<Sequence> seqLists;
+    Arraydin<Sequence> seqLists;
     int sequenceLength = std::stoi(line);
     int idx = sequenceLength;
     while(idx--){
         std::string sequenceString,sequence;
-        std::vector<std::string> sequenceList;
+        Arraydin<std::string> sequenceList;
         int reward;
         std::getline(mainstream,line);
         sequenceString = line.c_str();

@@ -1,17 +1,17 @@
 #pragma once
 #include <string>
 #include <iostream>
-#include <vector>
+#include "arraydin.hpp"
 
 class Sequence{
     private:
-        std::vector<std::string> seq;
+        Arraydin<std::string> seq;
         int reward;
     public:
 
-    Sequence(std::vector<std::string> &sequences,int reward);
+    Sequence(Arraydin<std::string> &sequences,int reward);
     std::string stringSequence();
-    std::vector<std::string> getSequence();
+    Arraydin<std::string> getSequence();
     int getReward();
     void printSequence();
 };

@@ -34,7 +34,7 @@ int main(){
             filePath = "test/" + filePath;
             Matrix dataMatrix = getMatrix(filePath);
             int bufferSize = getBufferSize(filePath);
-            std::vector<Sequence> sequenceList = getSequences(filePath);
+            Arraydin<Sequence> sequenceList = getSequences(filePath);
             startSolver(dataMatrix,bufferSize,sequenceList,executionTime);
             isContinue(play);
         }
@@ -60,9 +60,9 @@ int main(){
             cout << "Maximum reward value (integer) -> ";
             cin >> maximumReward;
 
-            std::vector<std::string> token = getToken(tokenString,jumlahToken);
+            Arraydin<std::string> token = getToken(tokenString,jumlahToken);
             Matrix dataMatrix = randomMatrix(matrixWidth,matrixHeight,token);
-            std::vector<Sequence> sequenceList = randomSequence(jumlahSekuens,maximumReward,ukuranMaksSekuens,token);
+            Arraydin<Sequence> sequenceList = randomSequence(jumlahSekuens,maximumReward,ukuranMaksSekuens,token);
             startSolver(dataMatrix,bufferSize,sequenceList,executionTime);
             isContinue(play);
         }

@@ -4,7 +4,7 @@
 #include <fstream>
 #include <string>
 #include <sstream>
-#include <vector>
+#include "arraydin.hpp"
 
 #include "matrix.hpp"
 #include "sequence.hpp"
@@ -19,5 +19,5 @@ int getBufferSize(std::string pathToFile);
 Matrix getMatrix(std::string pathToFile);
 // Mengambalikan matriks size yang diperoleh dari .txt
 
-std::vector<Sequence> getSequences(std::string pathToFile);
+Arraydin<Sequence> getSequences(std::string pathToFile);
 // Mengambalikan seluruh sequence dalam bentuk matriks size yang diperoleh dari .txt

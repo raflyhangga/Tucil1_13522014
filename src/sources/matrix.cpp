@@ -1,7 +1,16 @@
 #include "../header/matrix.hpp"
 
 Matrix::Matrix(int height, int width): rows(height),cols(width){
-    data.resize(rows, std::vector<std::string>(cols, "NULL")); // Initialize all elements to 0
+    this->data = new std::string * [rows];
+    for(int i=0;i<rows;i++){
+        this->data[i] = new std::string [cols];
+    }
+
+    for (int i=0;i<rows;i++){
+        for(int j=0;j<cols;j++){
+            this->data[i][j] = "NULL";
+        }
+    }
 }
 
 int Matrix::getWidth(){

@@ -2,13 +2,14 @@
 
 #include <string>
 #include <iostream>
-#include <vector>
+#include "arraydin.hpp"
 
 class Matrix {
     private:
-        std::vector<std::vector<std::string>> data;
+        // Arraydin<Arraydin<std::string>> data;
         int rows;
         int cols;
+        std::string** data;
     public:
         Matrix(int height, int width);
 

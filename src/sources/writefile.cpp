@@ -1,6 +1,6 @@
 #include "../header/writefile.hpp"
 
-std::string resultString(hasil dataHasil, std::vector<Sequence> dataSequence, Matrix dataMatrix, double executionTime,int bufferSize){
+std::string resultString(hasil dataHasil, Arraydin<Sequence> dataSequence, Matrix dataMatrix, double executionTime,int bufferSize){
     std::string data;
     data += "Matrix:\n";
     for(int i=0;i<dataMatrix.getHeight();i++){
@@ -15,7 +15,7 @@ std::string resultString(hasil dataHasil, std::vector<Sequence> dataSequence, Ma
     data += "\n\n==== Sequence List ===\n";
 
     for (int i=0;i<dataSequence.size();i++){
-        data += dataSequence[i].stringSequence().c_str();
+        data += dataSequence.data[i].stringSequence().c_str();
     }
 
     data += "\n==== Result ====\n";
@@ -28,14 +28,14 @@ std::string resultString(hasil dataHasil, std::vector<Sequence> dataSequence, Ma
         data += std::to_string(dataHasil.reward).c_str();
         data += "\nBuffer: ";
         for (int i=0;i<dataHasil.hasilBuffer.size();i++){
-            data += dataHasil.hasilBuffer[i];
+            data += dataHasil.hasilBuffer.data[i];
             data += " ";
         }
         data += "\nLangkah: \n";
         for (int i=0;i<dataHasil.hasilLangkah.size();i++){
-            data += std::to_string(dataHasil.hasilLangkah[i].j+1).c_str();
+            data += std::to_string(dataHasil.hasilLangkah.data[i].j+1).c_str();
             data += " ";
-            data += std::to_string(dataHasil.hasilLangkah[i].i+1).c_str();
+            data += std::to_string(dataHasil.hasilLangkah.data[i].i+1).c_str();
             if (i != dataHasil.hasilLangkah.size() - 1){
                 data += "\n";
             }
@@ -65,7 +65,7 @@ void writeToTxt(std::string pathToFIle,std::string resultString){
     }
 }
 
-void resultToTxt(std::string path, hasil dataHasil,std::vector<Sequence> dataSequence, Matrix dataMatrix, double executionTime, int bufferSize){
+void resultToTxt(std::string path, hasil dataHasil,Arraydin<Sequence> dataSequence, Matrix dataMatrix, double executionTime, int bufferSize){
     std::string data;
     data = resultString(dataHasil,dataSequence,dataMatrix,executionTime,bufferSize);
     writeToTxt(path,data);
