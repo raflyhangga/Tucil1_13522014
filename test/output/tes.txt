@@ -1,0 +1,46 @@
+Matrix:
+YO YO YO YO MA YO NI 
+YO YO YO NI GA MA GA 
+YO NI MA MA GA NI GA 
+MA NI YO NI YO MA MA 
+MA GA YO GA YO GA GA 
+YO NI NI NI YO YO MA 
+MA YO MA MA NI GA NI 
+
+Buffer Maximum Size: 8
+
+==== Sequence List ===
+Sequence: NI YO YO 
+Reward: -64
+Sequence: YO YO MA 
+Reward: -85
+Sequence: MA NI 
+Reward: 69
+Sequence: NI GA MA 
+Reward: -80
+Sequence: YO MA GA GA 
+Reward: -87
+Sequence: NI NI 
+Reward: 20
+Sequence: MA YO MA 
+Reward: -28
+Sequence: MA MA NI 
+Reward: -4
+Sequence: YO YO 
+Reward: -87
+Sequence: MA MA YO 
+Reward: -29
+
+==== Result ====
+Execution time: 4185.680000 ms
+Maximum point: 89
+Buffer: YO MA YO NI YO MA NI NI 
+Langkah: 
+1 1
+1 4
+3 4
+3 6
+1 6
+1 7
+7 7
+7 1
