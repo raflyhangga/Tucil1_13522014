@@ -33,7 +33,7 @@ This application will provide the user for the input method. There is two input 
 The user have to provide the program a ```.txt``` file that has the format by the following:
 ```
 [maximum buffer size]
-[matrix widht] [matrix height]
+[matrix width] [matrix height]
 [matrix]
 [amount of sequence]
 [sequences]
