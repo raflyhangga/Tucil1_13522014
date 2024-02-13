@@ -1,0 +1,409 @@
+7
+5 6
+aa ee bb bb ee      
+dd aa bb cc ee      
+ee dd cc bb bb      
+cc aa bb ee dd      
+bb bb cc bb cc      
+dd ee aa dd aa      
+200
+dd aa cc aa aa bb   
+-17
+ee ee cc dd bb cc   
+94
+cc aa dd aa aa aa   
+5
+ee bb bb ee cc
+11
+aa cc bb aa dd aa
+-9
+aa ee cc cc ee cc
+65
+bb ee bb cc bb ee
+-15
+aa aa cc aa dd cc
+81
+dd aa ee dd ee cc
+49
+dd bb bb bb ee ee
+-61
+dd bb ee ee bb
+-78
+dd cc dd bb aa bb
+64
+bb cc dd bb bb aa
+-47
+cc dd dd ee bb cc
+87
+aa aa aa aa ee bb
+67
+bb aa aa ee aa cc
+89
+ee dd aa aa bb
+-68
+aa bb cc bb bb ee
+2
+aa bb ee ee ee ee
+-45
+dd ee ee cc aa
+-100
+dd bb bb bb ee
+-6
+bb aa cc aa cc cc
+77
+aa dd bb
+-66
+aa dd bb ee
+-47
+aa ee ee aa ee
+35
+ee ee cc dd ee ee
+38
+cc bb bb bb cc cc
+-16
+ee ee dd bb cc aa
+21
+cc dd ee cc bb ee
+58
+ee aa ee dd dd
+-25
+dd cc ee dd ee dd
+-60
+bb aa bb aa bb
+-38
+dd ee bb bb aa cc
+-58
+dd dd bb dd dd ee
+-94
+bb bb ee ee bb
+70
+cc aa bb dd cc dd
+18
+bb aa ee cc aa bb
+47
+aa aa bb bb cc bb
+-68
+cc cc ee cc dd cc
+-82
+dd aa ee cc aa
+-64
+ee ee ee bb ee ee
+82
+ee aa dd aa bb bb
+-17
+cc dd ee ee cc bb
+45
+dd ee bb ee
+-57
+cc dd aa ee ee aa
+-2
+ee bb cc bb ee aa
+-79
+aa bb cc ee aa bb
+-44
+ee ee ee dd bb dd
+29
+aa aa cc aa bb bb
+99
+aa cc cc ee bb cc
+85
+ee bb bb bb dd bb
+62
+aa dd aa ee cc aa
+-9
+aa bb cc bb bb
+100
+ee dd dd ee ee dd
+-19
+aa dd cc aa aa ee
+34
+bb ee aa dd ee dd
+-24
+dd cc ee cc dd ee
+4
+aa aa cc cc bb bb
+-90
+dd dd ee cc cc bb
+-38
+aa aa bb dd cc bb
+78
+aa dd cc ee aa
+74
+aa bb cc bb aa aa
+-59
+cc ee cc dd cc ee
+11
+cc aa aa dd bb
+-32
+dd ee cc cc bb aa
+63
+ee dd aa aa aa aa
+20
+cc dd dd bb dd
+-64
+ee dd cc ee aa bb
+96
+bb cc cc bb ee dd
+-16
+ee dd dd aa aa dd
+59
+bb dd aa bb cc ee
+-59
+bb bb dd cc cc cc
+-13
+ee bb aa bb aa
+-64
+dd aa bb aa dd aa
+70
+aa cc bb aa ee cc
+25
+aa dd dd bb aa ee
+-86
+cc ee ee ee ee
+54
+aa bb cc ee dd aa
+20
+aa bb cc ee bb cc
+10
+ee bb aa ee bb dd
+-53
+cc dd bb aa aa bb
+82
+dd dd cc dd dd cc
+64
+ee bb dd bb bb bb
+78
+aa ee bb bb cc bb
+68
+cc bb dd dd cc aa
+74
+ee ee cc aa bb cc
+85
+ee aa aa aa dd
+-93
+dd cc aa bb ee cc
+-100
+aa aa bb aa dd dd
+4
+cc aa ee dd dd aa
+-51
+aa cc cc bb bb
+-69
+bb cc aa dd aa dd
+41
+dd dd dd ee ee ee
+-26
+ee cc bb dd dd ee
+-6
+dd aa bb dd aa bb
+12
+dd cc dd aa dd
+32
+dd dd dd aa dd ee
+33
+aa ee ee dd dd aa
+87
+dd cc dd ee
+34
+ee ee ee ee bb aa
+-21
+cc aa dd bb ee dd
+-96
+aa ee cc bb cc ee
+-40
+aa cc ee ee cc ee
+88
+bb dd aa cc
+63
+dd dd aa aa ee bb
+-80
+ee ee dd cc ee ee
+-77
+aa ee cc bb ee cc
+16
+aa aa dd cc cc dd
+-53
+dd bb aa ee bb cc
+42
+cc bb cc bb bb ee
+36
+dd cc dd dd dd
+22
+aa dd dd bb dd dd
+76
+cc dd cc dd ee cc
+60
+bb ee ee ee ee aa
+-74
+aa bb ee ee bb cc
+72
+bb dd ee dd aa bb
+46
+cc cc dd bb bb
+46
+dd dd cc dd ee dd
+54
+bb bb dd bb ee aa
+-47
+aa dd dd ee dd
+51
+aa cc dd cc dd dd
+2
+ee aa ee ee bb aa
+88
+cc aa cc bb bb bb
+9
+aa aa bb bb cc ee
+68
+bb bb dd cc ee aa
+-32
+cc cc ee dd dd bb
+-100
+bb dd bb dd cc ee
+-66
+bb ee dd dd dd ee
+-15
+dd ee
+2
+aa cc dd dd aa dd
+-41
+bb bb bb cc dd cc
+95
+ee aa dd bb ee ee
+-57
+aa dd bb ee dd dd
+77
+cc ee bb bb ee
+-40
+aa dd bb aa cc ee
+72
+cc ee
+68
+bb aa dd aa dd bb
+-7
+cc ee ee aa ee ee
+-99
+aa bb cc cc aa ee
+-56
+bb cc aa ee ee aa
+56
+dd dd cc bb cc ee
+22
+aa ee dd dd aa dd
+21
+ee dd dd bb ee aa
+40
+aa dd bb cc dd dd
+40
+ee cc ee dd ee aa
+-12
+aa dd dd ee ee aa
+-6
+aa bb bb cc cc cc
+43
+cc aa cc cc aa dd
+-61
+aa bb cc bb ee bb
+-76
+bb dd ee ee dd bb
+38
+ee bb bb dd dd
+14
+bb aa aa ee
+-82
+dd aa aa ee dd dd
+-74
+dd cc aa dd
+-98
+dd aa aa cc dd cc
+-45
+bb dd ee aa bb bb
+-86
+bb ee ee dd ee bb
+40
+dd aa bb ee aa aa
+57
+aa ee cc cc bb cc
+-95
+dd ee bb dd cc aa
+72
+cc bb bb dd bb ee
+-3
+ee aa aa ee ee ee
+100
+aa aa dd aa bb aa
+85
+cc ee bb ee dd dd
+10
+dd cc cc dd dd aa
+-45
+ee aa cc aa ee
+26
+aa aa aa bb bb cc
+58
+dd aa bb cc cc cc
+11
+dd aa aa bb aa
+60
+bb bb cc bb ee
+5
+bb dd bb bb ee cc
+-78
+cc aa ee bb dd bb
+82
+ee aa dd dd aa bb
+-48
+ee dd aa bb dd ee
+84
+ee ee dd bb dd bb
+-39
+ee dd aa bb aa dd
+-94
+dd ee cc bb dd bb
+85
+cc ee bb bb ee ee
+-21
+bb ee cc bb aa dd
+74
+dd bb ee bb bb aa
+-42
+ee dd aa ee ee aa
+24
+ee ee bb aa ee bb
+-4
+dd dd ee cc dd
+-39
+cc dd aa dd cc cc
+65
+ee ee aa ee bb cc
+-86
+bb cc cc dd bb cc
+-72
+ee aa bb aa bb
+-35
+cc cc cc cc aa bb
+87
+cc cc cc cc dd
+-39
+bb ee dd cc ee dd
+15
+ee dd ee aa ee aa
+-29
+ee aa bb bb cc aa
+-61
+aa cc bb bb dd bb
+-47
+dd cc cc ee
+0
+aa dd aa aa dd cc
+-99
+cc aa dd cc cc dd
+-19
+aa bb aa bb cc cc
+11
+ee dd cc ee ee bb
+51
+ee cc dd dd aa
+74
+bb dd bb bb dd cc
+-99

@@ -1,0 +1,424 @@
+Matrix:
+aa ee bb bb ee 
+dd aa bb cc ee 
+ee dd cc bb bb 
+cc aa bb ee dd 
+bb bb cc bb cc 
+dd ee aa dd aa 
+
+Buffer Maximum Size: 7
+
+==== Sequence List ===
+Sequence: dd aa cc aa aa bb 
+Reward: -17
+Sequence: ee ee cc dd bb cc 
+Reward: 94
+Sequence: cc aa dd aa aa aa 
+Reward: 5
+Sequence: ee bb bb ee cc 
+Reward: 11
+Sequence: aa cc bb aa dd aa 
+Reward: -9
+Sequence: aa ee cc cc ee cc 
+Reward: 65
+Sequence: bb ee bb cc bb ee 
+Reward: -15
+Sequence: aa aa cc aa dd cc 
+Reward: 81
+Sequence: dd aa ee dd ee cc 
+Reward: 49
+Sequence: dd bb bb bb ee ee 
+Reward: -61
+Sequence: dd bb ee ee bb 
+Reward: -78
+Sequence: dd cc dd bb aa bb 
+Reward: 64
+Sequence: bb cc dd bb bb aa 
+Reward: -47
+Sequence: cc dd dd ee bb cc 
+Reward: 87
+Sequence: aa aa aa aa ee bb 
+Reward: 67
+Sequence: bb aa aa ee aa cc 
+Reward: 89
+Sequence: ee dd aa aa bb 
+Reward: -68
+Sequence: aa bb cc bb bb ee 
+Reward: 2
+Sequence: aa bb ee ee ee ee 
+Reward: -45
+Sequence: dd ee ee cc aa 
+Reward: -100
+Sequence: dd bb bb bb ee 
+Reward: -6
+Sequence: bb aa cc aa cc cc 
+Reward: 77
+Sequence: aa dd bb 
+Reward: -66
+Sequence: aa dd bb ee 
+Reward: -47
+Sequence: aa ee ee aa ee 
+Reward: 35
+Sequence: ee ee cc dd ee ee 
+Reward: 38
+Sequence: cc bb bb bb cc cc 
+Reward: -16
+Sequence: ee ee dd bb cc aa 
+Reward: 21
+Sequence: cc dd ee cc bb ee 
+Reward: 58
+Sequence: ee aa ee dd dd 
+Reward: -25
+Sequence: dd cc ee dd ee dd 
+Reward: -60
+Sequence: bb aa bb aa bb 
+Reward: -38
+Sequence: dd ee bb bb aa cc 
+Reward: -58
+Sequence: dd dd bb dd dd ee 
+Reward: -94
+Sequence: bb bb ee ee bb 
+Reward: 70
+Sequence: cc aa bb dd cc dd 
+Reward: 18
+Sequence: bb aa ee cc aa bb 
+Reward: 47
+Sequence: aa aa bb bb cc bb 
+Reward: -68
+Sequence: cc cc ee cc dd cc 
+Reward: -82
+Sequence: dd aa ee cc aa 
+Reward: -64
+Sequence: ee ee ee bb ee ee 
+Reward: 82
+Sequence: ee aa dd aa bb bb 
+Reward: -17
+Sequence: cc dd ee ee cc bb 
+Reward: 45
+Sequence: dd ee bb ee 
+Reward: -57
+Sequence: cc dd aa ee ee aa 
+Reward: -2
+Sequence: ee bb cc bb ee aa 
+Reward: -79
+Sequence: aa bb cc ee aa bb 
+Reward: -44
+Sequence: ee ee ee dd bb dd 
+Reward: 29
+Sequence: aa aa cc aa bb bb 
+Reward: 99
+Sequence: aa cc cc ee bb cc 
+Reward: 85
+Sequence: ee bb bb bb dd bb 
+Reward: 62
+Sequence: aa dd aa ee cc aa 
+Reward: -9
+Sequence: aa bb cc bb bb 
+Reward: 100
+Sequence: ee dd dd ee ee dd 
+Reward: -19
+Sequence: aa dd cc aa aa ee 
+Reward: 34
+Sequence: bb ee aa dd ee dd 
+Reward: -24
+Sequence: dd cc ee cc dd ee 
+Reward: 4
+Sequence: aa aa cc cc bb bb 
+Reward: -90
+Sequence: dd dd ee cc cc bb 
+Reward: -38
+Sequence: aa aa bb dd cc bb 
+Reward: 78
+Sequence: aa dd cc ee aa 
+Reward: 74
+Sequence: aa bb cc bb aa aa 
+Reward: -59
+Sequence: cc ee cc dd cc ee 
+Reward: 11
+Sequence: cc aa aa dd bb 
+Reward: -32
+Sequence: dd ee cc cc bb aa 
+Reward: 63
+Sequence: ee dd aa aa aa aa 
+Reward: 20
+Sequence: cc dd dd bb dd 
+Reward: -64
+Sequence: ee dd cc ee aa bb 
+Reward: 96
+Sequence: bb cc cc bb ee dd 
+Reward: -16
+Sequence: ee dd dd aa aa dd 
+Reward: 59
+Sequence: bb dd aa bb cc ee 
+Reward: -59
+Sequence: bb bb dd cc cc cc 
+Reward: -13
+Sequence: ee bb aa bb aa 
+Reward: -64
+Sequence: dd aa bb aa dd aa 
+Reward: 70
+Sequence: aa cc bb aa ee cc 
+Reward: 25
+Sequence: aa dd dd bb aa ee 
+Reward: -86
+Sequence: cc ee ee ee ee 
+Reward: 54
+Sequence: aa bb cc ee dd aa 
+Reward: 20
+Sequence: aa bb cc ee bb cc 
+Reward: 10
+Sequence: ee bb aa ee bb dd 
+Reward: -53
+Sequence: cc dd bb aa aa bb 
+Reward: 82
+Sequence: dd dd cc dd dd cc 
+Reward: 64
+Sequence: ee bb dd bb bb bb 
+Reward: 78
+Sequence: aa ee bb bb cc bb 
+Reward: 68
+Sequence: cc bb dd dd cc aa 
+Reward: 74
+Sequence: ee ee cc aa bb cc 
+Reward: 85
+Sequence: ee aa aa aa dd 
+Reward: -93
+Sequence: dd cc aa bb ee cc 
+Reward: -100
+Sequence: aa aa bb aa dd dd 
+Reward: 4
+Sequence: cc aa ee dd dd aa 
+Reward: -51
+Sequence: aa cc cc bb bb 
+Reward: -69
+Sequence: bb cc aa dd aa dd 
+Reward: 41
+Sequence: dd dd dd ee ee ee 
+Reward: -26
+Sequence: ee cc bb dd dd ee 
+Reward: -6
+Sequence: dd aa bb dd aa bb 
+Reward: 12
+Sequence: dd cc dd aa dd 
+Reward: 32
+Sequence: dd dd dd aa dd ee 
+Reward: 33
+Sequence: aa ee ee dd dd aa 
+Reward: 87
+Sequence: dd cc dd ee 
+Reward: 34
+Sequence: ee ee ee ee bb aa 
+Reward: -21
+Sequence: cc aa dd bb ee dd 
+Reward: -96
+Sequence: aa ee cc bb cc ee 
+Reward: -40
+Sequence: aa cc ee ee cc ee 
+Reward: 88
+Sequence: bb dd aa cc 
+Reward: 63
+Sequence: dd dd aa aa ee bb 
+Reward: -80
+Sequence: ee ee dd cc ee ee 
+Reward: -77
+Sequence: aa ee cc bb ee cc 
+Reward: 16
+Sequence: aa aa dd cc cc dd 
+Reward: -53
+Sequence: dd bb aa ee bb cc 
+Reward: 42
+Sequence: cc bb cc bb bb ee 
+Reward: 36
+Sequence: dd cc dd dd dd 
+Reward: 22
+Sequence: aa dd dd bb dd dd 
+Reward: 76
+Sequence: cc dd cc dd ee cc 
+Reward: 60
+Sequence: bb ee ee ee ee aa 
+Reward: -74
+Sequence: aa bb ee ee bb cc 
+Reward: 72
+Sequence: bb dd ee dd aa bb 
+Reward: 46
+Sequence: cc cc dd bb bb 
+Reward: 46
+Sequence: dd dd cc dd ee dd 
+Reward: 54
+Sequence: bb bb dd bb ee aa 
+Reward: -47
+Sequence: aa dd dd ee dd 
+Reward: 51
+Sequence: aa cc dd cc dd dd 
+Reward: 2
+Sequence: ee aa ee ee bb aa 
+Reward: 88
+Sequence: cc aa cc bb bb bb 
+Reward: 9
+Sequence: aa aa bb bb cc ee 
+Reward: 68
+Sequence: bb bb dd cc ee aa 
+Reward: -32
+Sequence: cc cc ee dd dd bb 
+Reward: -100
+Sequence: bb dd bb dd cc ee 
+Reward: -66
+Sequence: bb ee dd dd dd ee 
+Reward: -15
+Sequence: dd ee 
+Reward: 2
+Sequence: aa cc dd dd aa dd 
+Reward: -41
+Sequence: bb bb bb cc dd cc 
+Reward: 95
+Sequence: ee aa dd bb ee ee 
+Reward: -57
+Sequence: aa dd bb ee dd dd 
+Reward: 77
+Sequence: cc ee bb bb ee 
+Reward: -40
+Sequence: aa dd bb aa cc ee 
+Reward: 72
+Sequence: cc ee 
+Reward: 68
+Sequence: bb aa dd aa dd bb 
+Reward: -7
+Sequence: cc ee ee aa ee ee 
+Reward: -99
+Sequence: aa bb cc cc aa ee 
+Reward: -56
+Sequence: bb cc aa ee ee aa 
+Reward: 56
+Sequence: dd dd cc bb cc ee 
+Reward: 22
+Sequence: aa ee dd dd aa dd 
+Reward: 21
+Sequence: ee dd dd bb ee aa 
+Reward: 40
+Sequence: aa dd bb cc dd dd 
+Reward: 40
+Sequence: ee cc ee dd ee aa 
+Reward: -12
+Sequence: aa dd dd ee ee aa 
+Reward: -6
+Sequence: aa bb bb cc cc cc 
+Reward: 43
+Sequence: cc aa cc cc aa dd 
+Reward: -61
+Sequence: aa bb cc bb ee bb 
+Reward: -76
+Sequence: bb dd ee ee dd bb 
+Reward: 38
+Sequence: ee bb bb dd dd 
+Reward: 14
+Sequence: bb aa aa ee 
+Reward: -82
+Sequence: dd aa aa ee dd dd 
+Reward: -74
+Sequence: dd cc aa dd 
+Reward: -98
+Sequence: dd aa aa cc dd cc 
+Reward: -45
+Sequence: bb dd ee aa bb bb 
+Reward: -86
+Sequence: bb ee ee dd ee bb 
+Reward: 40
+Sequence: dd aa bb ee aa aa 
+Reward: 57
+Sequence: aa ee cc cc bb cc 
+Reward: -95
+Sequence: dd ee bb dd cc aa 
+Reward: 72
+Sequence: cc bb bb dd bb ee 
+Reward: -3
+Sequence: ee aa aa ee ee ee 
+Reward: 100
+Sequence: aa aa dd aa bb aa 
+Reward: 85
+Sequence: cc ee bb ee dd dd 
+Reward: 10
+Sequence: dd cc cc dd dd aa 
+Reward: -45
+Sequence: ee aa cc aa ee 
+Reward: 26
+Sequence: aa aa aa bb bb cc 
+Reward: 58
+Sequence: dd aa bb cc cc cc 
+Reward: 11
+Sequence: dd aa aa bb aa 
+Reward: 60
+Sequence: bb bb cc bb ee 
+Reward: 5
+Sequence: bb dd bb bb ee cc 
+Reward: -78
+Sequence: cc aa ee bb dd bb 
+Reward: 82
+Sequence: ee aa dd dd aa bb 
+Reward: -48
+Sequence: ee dd aa bb dd ee 
+Reward: 84
+Sequence: ee ee dd bb dd bb 
+Reward: -39
+Sequence: ee dd aa bb aa dd 
+Reward: -94
+Sequence: dd ee cc bb dd bb 
+Reward: 85
+Sequence: cc ee bb bb ee ee 
+Reward: -21
+Sequence: bb ee cc bb aa dd 
+Reward: 74
+Sequence: dd bb ee bb bb aa 
+Reward: -42
+Sequence: ee dd aa ee ee aa 
+Reward: 24
+Sequence: ee ee bb aa ee bb 
+Reward: -4
+Sequence: dd dd ee cc dd 
+Reward: -39
+Sequence: cc dd aa dd cc cc 
+Reward: 65
+Sequence: ee ee aa ee bb cc 
+Reward: -86
+Sequence: bb cc cc dd bb cc 
+Reward: -72
+Sequence: ee aa bb aa bb 
+Reward: -35
+Sequence: cc cc cc cc aa bb 
+Reward: 87
+Sequence: cc cc cc cc dd 
+Reward: -39
+Sequence: bb ee dd cc ee dd 
+Reward: 15
+Sequence: ee dd ee aa ee aa 
+Reward: -29
+Sequence: ee aa bb bb cc aa 
+Reward: -61
+Sequence: aa cc bb bb dd bb 
+Reward: -47
+Sequence: dd cc cc ee 
+Reward: 0
+Sequence: aa dd aa aa dd cc 
+Reward: -99
+Sequence: cc aa dd cc cc dd 
+Reward: -19
+Sequence: aa bb aa bb cc cc 
+Reward: 11
+Sequence: ee dd cc ee ee bb 
+Reward: 51
+Sequence: ee cc dd dd aa 
+Reward: 74
+Sequence: bb dd bb bb dd cc 
+Reward: -99
+
+==== Result ====
+Execution time: 1434.623000 ms
+Maximum point: 168
+Buffer: aa bb cc bb bb cc ee 
+Langkah: 
+1 1
+1 5
+3 5
+3 1
+4 1
+4 2
+5 2
