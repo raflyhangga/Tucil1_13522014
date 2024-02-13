@@ -7,6 +7,7 @@
 #include "header/writefile.hpp"
 #include "header/readfile.hpp"
 #include "header/tools.hpp"
+#define fastio ios_base::sync_with_stdio(false);cin.tie(NULL);
 using namespace std;
 
 int main(){
