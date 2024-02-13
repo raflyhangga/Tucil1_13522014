@@ -28,6 +28,10 @@ void startSolver(Matrix &dataMatrix,int &bufferSize,std::vector<Sequence> &dataS
     std::cout<<"Matriks Input:\n";
     dataMatrix.printValue();
     std::cout << "Buffer size: "<<bufferSize<<std::endl;
+    std::cout << "Sequences: \n";
+    for(int i=0;i<dataSequence.size();i++){
+        dataSequence[i].printSequence();
+    }
     
     std::cout<<"\n======================= Result =======================\n";
     std::cout<<"Processing...\n";
